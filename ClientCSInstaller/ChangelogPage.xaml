@@ -1,0 +1,16 @@
+﻿<Page x:Class="ClientCSInstaller.ChangelogPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ClientCSInstaller"
+      mc:Ignorable="d" 
+      d:DesignHeight="449" d:DesignWidth="799"
+      Title="ChangelogPage">
+
+    <Grid>
+        <Button Content="Close" HorizontalAlignment="Left" Margin="695,409,0,0" VerticalAlignment="Top" Width="94" Height="30" Click="Button_Click"/>
+        <TextBox x:Name="changelogText" IsReadOnly="True" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="783" Height="394" Margin="10,10,0,0"/>
+
+    </Grid>
+</Page>
